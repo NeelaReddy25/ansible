@@ -11,4 +11,8 @@
       name: nginx
       state: started
       enabled: yes      
- 
+  - name: Install the latest version of Apache
+    ansible.builtin.dnf:
+      name: httpd
+      state: latest
+      
