@@ -1,0 +1,7 @@
+- name: variables for arguments
+  hosts: localhost
+  taska:
+  - name: get from args
+    ansible.builtin.debug:
+      msg: "Hello {{PERSON}}, Good {{WISHES}}"
+      
