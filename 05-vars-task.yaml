@@ -1,4 +1,4 @@
-- name: vars-task
+- name: variables from task
   hosts: localhost
   vars:
     course: "Terraform"
