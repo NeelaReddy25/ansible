@@ -1,4 +1,4 @@
-- namw: variables from files
+- name: variables from files
   hosts: localhost
   tasks:
   - name: print infomation
