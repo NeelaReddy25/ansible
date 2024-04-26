@@ -1,4 +1,4 @@
-- name: variable perference
+- name: variable preference
   hosts: localhost
   vars:
     WISHES: "Morning from PLAY variable"
@@ -11,6 +11,6 @@
   vars:
     WISHES: "Morning from TASK variable"  
   tasks:
-  - name: check perference
+  - name: check preference
     ansible.builtin.debug:
       msg: "Hello, Good {{WISHES}}"
