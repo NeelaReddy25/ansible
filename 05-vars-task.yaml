@@ -6,7 +6,7 @@
     Duration: "15hrs"
   tasks:
   - name: print override information
-    vars: #tTask level variables
+    vars: #Task level variables
       course: "Devops"
     ansible.builtin.debug:
       msg: "Hi, we are learning {{course}} from Trainer {{Trainer}}, Duration is {{Duration}}}"
